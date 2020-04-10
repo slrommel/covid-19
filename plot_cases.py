@@ -181,3 +181,5 @@ countries = ['Italy', 'Spain', 'United Kingdom', 'United States',
              'Japan', 'France', 'South Korea', 'China', 'Austria', 'Iran']
 make_comparison_plot(countries, normalize=False)
 plt.show()
+make_comparison_plot(countries, normalize=True)
+plt.show()
